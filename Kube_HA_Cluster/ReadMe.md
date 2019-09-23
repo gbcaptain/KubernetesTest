@@ -25,6 +25,7 @@
 > #建议使用未用的网段来定义服务网段和Pod 网段
 > #服务网段(Service CIDR)，部署前路由不可达，部署后集群内部使用IP:Port可达
 > > SERVICE_CIDR="10.254.0.0/16"
+>
 > #Pod 网段(Cluster CIDR)，部署前路由不可达，部署后路由可达(flanneld 保证)
 > > CLUSTER_CIDR="172.30.0.0/16"
 > 
